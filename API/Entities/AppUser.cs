@@ -4,15 +4,8 @@ public class AppUser
 {
     public int Id { get; set; }
 
-    private string userName;
+    public string UserName { get; set;}
 
-    public string GetUserName()
-    {
-        return userName;
-    }
+    public string Name { get; set; }
 
-    public void SetUserName(string value)
-    {
-        userName = value;
-    }
 }
